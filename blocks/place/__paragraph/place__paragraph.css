@@ -1,0 +1,33 @@
+.place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  min-width: 484px;
+  /*width: calc(100vh-(148px+460px+40px+148px));*/
+  margin: 0 0 26px;
+  max-width: 480px;
+}
+
+@media screen and (max-width: 1140px) {
+  .place__paragraph {
+    /*max-width: 456px;*/
+    width: calc(100vh-(48px+440px+32px+48px));
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .place__paragraph {
+    /*max-width: 352px;*/
+    width: calc(100vh-(24px+340px+28px+24px));
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraph {
+    /*max-width: 288px;*/
+    width: calc(100vh-(16px+16px));
+  }
+}
