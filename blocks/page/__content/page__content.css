@@ -1,4 +1,6 @@
 .page__content {
+  display: flex;
+  flex-direction: column;
   margin-top: 56px;
   margin-bottom: 92px;
 }

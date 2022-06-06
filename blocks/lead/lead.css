@@ -1,12 +1,13 @@
 .lead {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    max-width: 984px;
+    align-items: center;
+    box-sizing: border-box;
+    flex-shrink: 0;
 }
 
-@media screen and (max-width: 1170px) {
-    .lead {
-      min-width: 100vh;
-    }
+@media screen and (max-width: 568px) {
+  .lead {
+    min-width: 320px;
   }
+}

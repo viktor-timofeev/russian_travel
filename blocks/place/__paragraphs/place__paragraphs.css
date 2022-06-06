@@ -1,4 +1,23 @@
 .place__paragraphs {
   padding-top: 0;
-  width: min-content;
+  max-width: 480px;
+  width: auto;
+}
+
+@media screen and (max-width: 1140px) {
+  .place__paragraphs {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .place__paragraphs {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .place__paragraphs {
+    min-width: 288px;
+  }
 }

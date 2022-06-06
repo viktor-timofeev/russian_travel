@@ -1,12 +1,22 @@
 .content__section {
-  box-sizing: border-box;
   width: 100%;
-  padding: 0 48px;
+  padding-bottom: 92px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1140px) {
+.content__section:last-child {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 984px) {
   .content__section {
-    padding: 0;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .content__section {
+    padding-bottom: 64px;
   }
 }

@@ -20,20 +20,20 @@
       <a class="header__lang-link">Ru</a>
       <a class="header__lang-link">En</a>
     </div>
-
-
   </header>
 
   <main class="content page__content">
 
-    <div class="lead">
+    <content class="lead content__section">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <div class="lead__image"> </div>
+      <div class="image-block">
+      <img class="lead__image" alt="" src="./images/lead-polka.jpg">
       <p class="lead__caption">Ваша полка - верхняя</p>
-    </div>
+      </div>
+    </content>
 
-    <section class="intro content__section">
+    <content class="intro content__section">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют
         провести
@@ -48,10 +48,10 @@
         Объектов культурного наследия ЮНЕСКО 16<br>
         Природных заповедников 105<br>
         Аэропортов 241</p>
-      </section>
+      </content>
 
 
-    <section class="photo-grid content__section">
+    <content class="photo-grid content__section">
       <img class="photo-grid__item" src="./images/grid-image.png" alt="" data-type="auto">
       <img class="photo-grid__item" src="./images/grid-image-1.png" alt="" data-type="auto">
       <img class="photo-grid__item" src="./images/grid-image-2.png" alt="" data-type="auto">
@@ -64,29 +64,26 @@
       <img class="photo-grid__item" src="./images/grid-image-9.png" alt="" data-type="auto">
       <img class="photo-grid__item" src="./images/grid-image-10.png" alt="" data-type="auto">
       <img class="photo-grid__item" src="./images/grid-image-11.png" alt="" data-type="auto">
-    </section>
+    </content>
 
-    <section class="places content__section">
-      <div class="place">
-
-        <div class="place__title">Куршская коса</div>
-        <div class="place__website">
-          <p class="website__url-heading">URL</p>
-          <a class="website__link" href="http://park-kosa.ru/">park-kosa.ru</a>
-        </div>
-        <img src="./images/places-kurshskaya-kosa.png" alt="" class="place__image">
-        <div class="place__paragraphs">
-          <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
-            спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
-            природная зона на краю российского анклава.</p>
-          <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и
-            исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие
-            россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и
-            запах стального, прохладного моря.</p>
-        </div>
+    <content class="places content__section">
+      
+      <div class="place__title">Куршская коса</div>
+      <div class="place__website">
+        <p class="website__url-heading">URL</p>
+        <a class="website__link" href="http://park-kosa.ru/">park-kosa.ru</a>
       </div>
-
-      <div class="place">
+      <img src="./images/places-kurshskaya-kosa.png" alt="" class="place__image">
+      <div class="place__paragraphs">
+        <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
+          спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
+          природная зона на краю российского анклава.</p>
+        <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и
+          исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие
+          россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и
+          запах стального, прохладного моря.</p>
+       </div>   
+      
         <div class="place__title">Кольский</div>
         <div class="place__website">
           <p class="website__url-heading">URL</p>
@@ -104,9 +101,7 @@
             накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
             в Мурманск.</p>
         </div>
-      </div>
-
-      <div class="place">
+      
         <div class="place__title">Алтай</div>
         <div class="place__website">
           <p class="website__url-heading">URL</p>
@@ -123,9 +118,7 @@
             разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
-      </div>
-
-      <div class="place">
+      
         <div class="place__title">Зимний Байкал</div>
         <div class="place__website">
           <p class="website__url-heading">URL</p>
@@ -133,18 +126,12 @@
         </div>
         <img src="./images/places-baikal.png" alt="" class="place__image">
         <div class="place__paragraphs">
-          <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
-            в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
+          <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.
           </p>
-          <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по
-            скийорингу.
-            Это такой вид спорта, когда лыжник привязывает себя
-            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
+          <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале
             «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-      </div>
-
-      <div class="place">
+      
         <div class="place__title">Карелия</div>
         <div class="place__website">
           <p class="website__url-heading">URL</p>
@@ -159,17 +146,15 @@
             В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
-      </div>
+    </content>
 
-    </section>
-
-    <section class="cover content__section">
+    <content class="cover content__section">
       <a href="#" target="_blank" class="cover__item">
         <p class="cover__title">До Байкала «на собаках»</p>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
       </a>
-    </section>
+    </content>
 
   </main>
 
@@ -182,7 +167,6 @@
       <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
     </div>
     <p class="footer__copyright">&copy; 2020. Виктор Тимофеев</p>
-
   </footer>
 
 
