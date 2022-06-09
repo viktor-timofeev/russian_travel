@@ -5,15 +5,9 @@
   align-content: flex-start;
 }
 
-@media screen and (max-width: 800px) {
-  .footer__links {
-    margin-bottom: 48px;
+  @media screen and (max-width: 740px) {
+    .footer__links {
+      flex-direction: column;
+      margin-bottom: 48px;
+    }
   }
-}
-
-@media screen and (max-width: 568px) {
-  .footer__links {
-    flex-direction: column;
-    margin-bottom: 48px;
-  }
-}

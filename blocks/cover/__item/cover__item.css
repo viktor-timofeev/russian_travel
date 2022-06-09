@@ -1,6 +1,7 @@
 .cover__item {
   position: relative;
   min-height: 740px;
+  width: 100%;
   text-decoration: none;
   box-sizing: border-box;
   padding: 20px;
@@ -26,28 +27,26 @@
   left: 0;
   transition: .2s;
   z-index: -1;
-
 }
 
 .cover__item:hover::before {
   opacity: .8;
 }
 
-@media screen and (max-width: 1140px) {
-  .cover__item {
-    min-height: 640px;
+  @media screen and (max-width: 1140px) {
+    .cover__item {
+      min-height: 640px;
+    }
   }
-}
 
-@media screen and (max-width: 984px) {
-  .cover__item {
-    min-height: 480px;
+  @media screen and (max-width: 984px) {
+    .cover__item {
+      min-height: 480px;
+    }
   }
-}
 
-@media screen and (max-width: 568px) {
-  .cover__item {
-    min-height: 320px;
-    padding: 10px;
+  @media screen and (max-width: 568px) {
+    .cover__item {
+      min-height: 200px;
+    }
   }
-}

@@ -1,18 +1,27 @@
 .header__lang-link {
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
-    text-decoration-line: underline;
+    line-height: 117%;
+    text-decoration: none;
     color: #FFFFFF;
     align-self: flex-end;
     justify-self: flex-end;
+    margin-right: 18px;
 }
 
-@media screen and (max-width: 568px) {
-    .header__logo {
-        font-size: 18px;
-        line-height: 20px;
-    }
+.header__lang-link:hover {
+    opacity: .8;
+  }
+
+.header__lang-link:last-child {
+    margin-right: 0;
 }
+
+    @media screen and (max-width: 568px) {
+        .header__lang-link {
+            font-size: 18px;
+            line-height: 111%;
+        }
+    }

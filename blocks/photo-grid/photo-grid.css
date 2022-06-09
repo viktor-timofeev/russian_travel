@@ -3,26 +3,26 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   grid-template-rows: repeat(auto-fit, minmax(213px, max-content));
   gap: 16px;
-  margin: auto;
+  margin: 0 auto;
   justify-content: center;
   align-content: center;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1260px) {
-  .photo-grid {
-    gap: 14px;
+  @media screen and (max-width: 1140px) {
+    .photo-grid {
+      gap: 14px;
+    }
   }
-}
 
-@media screen and (max-width: 984px) {
-  .photo-grid {
-    gap: 16px;
+  @media screen and (max-width: 984px) {
+    .photo-grid {
+      gap: 16px;
+    }
   }
-}
 
-@media screen and (max-width: 568px) {
-  .photo-grid {
-    gap: 12px;
+  @media screen and (max-width: 568px) {
+    .photo-grid {
+      gap: 12px;
+    }
   }
-}

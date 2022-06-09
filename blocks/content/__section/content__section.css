@@ -3,20 +3,21 @@
   padding-bottom: 92px;
   margin: 0 auto;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .content__section:last-child {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 984px) {
-  .content__section {
-    padding-bottom: 88px;
+  @media screen and (max-width: 984px) {
+    .content__section {
+      padding-bottom: 88px;
+    }
   }
-}
 
-@media screen and (max-width: 568px) {
-  .content__section {
-    padding-bottom: 64px;
+  @media screen and (max-width: 568px) {
+    .content__section {
+      padding-bottom: 64px;
+    }
   }
-}
